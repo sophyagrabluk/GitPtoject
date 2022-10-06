@@ -5,7 +5,7 @@ public class HW_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-     //Массив заполняется рандомными числами
+  /*   //Массив заполняется рандомными числами
      double[] arrayrandom = new double[scanner.nextInt()];
         for (int i = 0; i < arrayrandom.length; i++) {
             arrayrandom[i] = Math.random();
@@ -95,6 +95,56 @@ public class HW_4 {
 
         // 6. Проверить, является ли массив возрастающей последовательностью
         // (каждое следующее число больше предыдущего)
+        boolean result = true;
+        for (int test = 1; test < array.length; test++) {
+            if(array[test]<=array[test-1]){
+                result = false;
+                break;
+            }
+        }
+        if(result){
+            System.out.println("Последовательность возрастающая");
+        } else {
+            System.out.println("Последовательность не возрастающая");
+        }
 
-    }
-}
+
+        // Создать двумерный массив, заполнить его числами. Добавить к каждому значению число,
+        // которое пользователь будет вводить с консоли. Найти сумму всех получившихся элементов.
+        int[][] twoArray = {{1, 2}, {3, 4}, {5, 6}};
+        System.out.println(Arrays.deepToString(twoArray));
+
+        for (int x = 0; x < twoArray.length; x++) {
+            for (int y = 0; y < twoArray[x].length; y++) {
+                System.out.print(twoArray[x][y] + "+");
+                int result = twoArray[x][y] + scanner.nextInt();
+                System.out.println("=" + result);
+
+                int sum = 0;
+                for (int sumx = 0; sumx < twoArray[result].length; sumx++) {
+                    for (int sumy = 0; sumy < twoArray[sumx].length; sumy++) {
+                        sum = sum + twoArray[sumx][sumy];
+                        System.out.println(sum);
+            }
+        }
+            }
+        }
+
+
+        //Шахматная доска
+        //Создать программу для раскраски шахматной доски с помощью цикла. Создать двумерный массив String'ов 8х8.
+        //С помощью циклов задать элементам циклам значения B(Black) или W(White).
+        String[][] chess = new String[8][8];
+        for (int k = 0; k < chess.length; k++) {
+            for (int q = 0; q < chess.length; q++) {
+                if ((k + q) / 2 == 0)
+                    System.out.println("W ");
+                else
+                    System.out.println("B ");
+
+            }
+        }*/
+
+
+            }
+        }
