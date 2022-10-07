@@ -108,33 +108,33 @@ public class HW_4 {
             System.out.println("Последовательность не возрастающая");
         }
 
-
+*/
         // Создать двумерный массив, заполнить его числами. Добавить к каждому значению число,
         // которое пользователь будет вводить с консоли. Найти сумму всех получившихся элементов.
         int[][] twoArray = {{1, 2}, {3, 4}, {5, 6}};
-        System.out.println(Arrays.deepToString(twoArray));
-
+        //      System.out.println(Arrays.deepToString(twoArray));
+        int result = 0;
         for (int x = 0; x < twoArray.length; x++) {
             for (int y = 0; y < twoArray[x].length; y++) {
                 System.out.print(twoArray[x][y] + "+");
-                int result = twoArray[x][y] + scanner.nextInt();
+                result = twoArray[x][y] + scanner.nextInt();
                 System.out.println("=" + result);
-
-                int sum = 0;
-                for (int sumx = 0; sumx < twoArray[result].length; sumx++) {
-                    for (int sumy = 0; sumy < twoArray[sumx].length; sumy++) {
-                        sum = sum + twoArray[sumx][sumy];
-                        System.out.println(sum);
             }
         }
+        int sum = twoArray[0][0];
+        for (int sumx = 0; sumx < twoArray.length; sumx++) {
+            for (int sumy = 0; sumy < twoArray[sumx].length; sumy++) {
+                sum = sum + twoArray[sumx][sumy];
+                System.out.println(sum);
+
             }
         }
 
 
-        //Шахматная доска
+   /*     //Шахматная доска
         //Создать программу для раскраски шахматной доски с помощью цикла. Создать двумерный массив String'ов 8х8.
         //С помощью циклов задать элементам циклам значения B(Black) или W(White).
-        String[][] chess = new String[8][8];
+          String[][] chess = new String[8][8];
         for (int k = 0; k < chess.length; k++) {
             for (int q = 0; q < chess.length; q++) {
                 if ((k + q) / 2 == 0)
@@ -143,8 +143,8 @@ public class HW_4 {
                     System.out.println("B ");
 
             }
-        }*/
+        } */
 
 
-            }
-        }
+    }
+}
