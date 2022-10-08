@@ -76,8 +76,8 @@ public class HW_Arrays {
         int zero = 0;
         for (int z = 0; z < array.length; z++)
             if (array[z] == 0) {
-                zero++;}
-                System.out.println("Количество нулевых элементов в массиве: " + zero);
+                zero++;
+                System.out.println("Количество нулевых элементов в массиве: " + zero);}
                 if (zero == 0)
                     System.out.println("Нулевых элементов нет"); // как убрать "0" в консоли
 
@@ -116,7 +116,7 @@ public class HW_Arrays {
             for (int y = 0; y < twoArray[x].length; y++) {
                 System.out.print(twoArray[x][y] + "+");
                 resultTwo = twoArray[x][y] + scanner.nextInt();
-                System.out.println("=" + result);
+                System.out.println("=" + resultTwo);
                 twoArray[x][y] = resultTwo;
             }
         }
