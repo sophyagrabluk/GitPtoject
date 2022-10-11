@@ -137,12 +137,13 @@ public class HW_Arrays {
         String[][] chess = new String[8][8];
         for (int k = 0; k < chess.length; k++) {
             for (int q = 0; q < chess[k].length; q++) {
-                if ((k + q) % 2 == 0)
+                if ((k + q) % 2 == 0) {
                     System.out.print("W ");
-                 else
+                } else
                     System.out.print("B ");
                 System.out.println();
             }
+     //       System.out.println();
         }
 
 
