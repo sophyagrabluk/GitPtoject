@@ -3,7 +3,7 @@ public class CreditCard_HW {
     long account_number;
     int current_balance;
 
-    // создали конструктор (пользовательский)
+    // создали конструктор
     public CreditCard_HW(long account_number, int current_balance) {
         this.account_number = account_number;
         this.current_balance = current_balance;
