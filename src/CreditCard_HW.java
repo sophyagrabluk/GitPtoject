@@ -1,9 +1,7 @@
 public class CreditCard_HW {
-    // объявили поля (переменные)
     long account_number;
     int current_balance;
 
-    // создали конструктор
     public CreditCard_HW(long account_number, int current_balance) {
         this.account_number = account_number;
         this.current_balance = current_balance;
@@ -22,7 +20,6 @@ public class CreditCard_HW {
     }
 
     // Добавьте метод, который выводит текущую информацию о карточке.
-
     void showAllInfo() {
         System.out.println("Номер карты: " + account_number + ", Текущий счёт: " + current_balance);
     }
