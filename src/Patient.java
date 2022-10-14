@@ -1,6 +1,7 @@
 public class Patient {
 
 public int plan;
-public String doctor;
-
+    public Patient(int plan) {
+        this.plan = plan;
+    }
 }

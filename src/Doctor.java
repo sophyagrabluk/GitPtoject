@@ -1,6 +1,5 @@
 public class Doctor {
-
-    void cure () {
+    void cure() {
         System.out.println("Я лечу");
     }
 }

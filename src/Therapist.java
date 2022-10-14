@@ -1,5 +1,4 @@
 public class Therapist extends Doctor {
-
     @Override
     void cure() {
         System.out.println("Я лечу как терапевт");
@@ -8,23 +7,20 @@ public class Therapist extends Doctor {
     public Therapist() {
     }
 
-    // Так же у терапевта создать метод, который будет назначать врача пациенту согласно плану лечения
-    // Если план лечения имеет код 1 – назначить хирурга и выполнить метод лечить.
-    // Если план лечения имеет код 2 – назначить дантиста и выполнить метод лечить.
-    // Если план лечения имеет любой другой код – назначить терапевта и выполнить метод лечить.
     Surgeon surgeon = new Surgeon();
     Dentist dentist = new Dentist();
 
     public void whichDoctor(Patient patient) {
         if (patient.plan == 1) {
-            patient.doctor = "Хирург";
+            System.out.println("Вам назначен хирург");
             surgeon.cure();
         } else if (patient.plan == 2) {
-            patient.doctor = "Дантист";
+            System.out.println("Вам назначен стоматолог");
             dentist.cure();
-        } else
-            patient.doctor = "Терапевт";
-        cure();
+        } else {
+            System.out.println("Вам назначен терапевт");
+            cure();
+        }
 
     }
 }
