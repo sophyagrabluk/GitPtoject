@@ -22,6 +22,7 @@ public class Main_Hens {
             BelarusianHen belarusianHen = new BelarusianHen();
             System.out.println(belarusianHen.getDescription());
         }
+
 // Посчитать общее количество снесённых яиц за год.
         int allEggsFromRussian = RussianHen.countHen * RussianHen.eggsPerYear;
         int allEggsFromUkrainian = UkrainianHen.countHen * UkrainianHen.eggsPerYear;
