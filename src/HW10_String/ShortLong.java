@@ -7,6 +7,7 @@ public class ShortLong {
         // Ввести 3 строки с консоли, найти самую короткую и самую длинную строки.
         // Вывести найденные строки и их длину.
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите 3 строки:");
         String[] str = new String[3];
         for (int i = 0; i < str.length; i++) {
             str[i] = scanner.nextLine();

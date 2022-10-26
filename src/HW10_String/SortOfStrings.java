@@ -6,6 +6,7 @@ public class SortOfStrings {
     public static void main(String[] args) {
         // Ввести 3 строки с консоли. Упорядочить и вывести строки в порядке возрастания значений их длины.
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите 3 строки:");
         String[] str = new String[3];
         for (int i = 0; i < str.length; i++) {
             str[i] = scanner.nextLine();
