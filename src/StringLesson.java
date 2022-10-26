@@ -15,7 +15,7 @@ public class StringLesson {
         // .isBlank делает тоже самое, только пробелы считает за пустоту (начинается на 8 джаве)
 
         // .startsWith()  проверяетс начинается ли значение с заданной букввы
-        // ebdsWith() тоже самое, но проверяет конец
+        // endsWith() тоже самое, но проверяет конец
         // .stripLeading() удаляет пробелы только слева (.stripTrailing - справа)
         // .split заменяет значаения, которые мы указываем в пробелы (111 - в пробел)
         //    String line;
@@ -76,20 +76,20 @@ public class StringLesson {
         //     System.out.println(x == y);
 
         // Создать объект StringBuilder c любой строкой
-        StringBuilder sb = new StringBuilder("Hello, Rick!");
-        sb.append("xxxx");
-        System.out.println(sb);
-        sb.insert(5,"y");
-        System.out.println(sb);
-        sb.delete(3,6);
-        System.out.println(sb);
-        sb.reverse();
-        System.out.println(sb);
-        sb.toString();
-        System.out.println(sb);
-
-
-
+        //  StringBuilder sb = new StringBuilder("Hello, Rick!");
+        //  sb.append("xxxx");
+        //  System.out.println(sb);
+        //  sb.insert(5,"y");
+        //  System.out.println(sb);
+        //sb.delete(0,4);
+        // System.out.println(sb);
+        //sb.deleteCharAt(1);
+        //  System.out.println(sb);
+        //  System.out.println(sb);
+        //  sb.reverse();
+        //  System.out.println(sb);
+        //  sb.toString();
+        //  System.out.println(sb);
 
 
     }

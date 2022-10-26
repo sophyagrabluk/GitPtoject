@@ -11,7 +11,13 @@ public class DifferentStrings {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите 3 строки:");
         String [] str = {scanner.nextLine(), scanner.nextLine(),scanner.nextLine()};
-        Arrays.toString(str);
+
+        char[] arr = new char[0];
+        for (int i = 0; i < str.length; i++) {
+            //str[i] =
+        }
+        // циклом пройтись по каждому элементу в массиве и каждый этот элемент преобразовать в char
+        // потом ещё одним циклом пройтись по каждому элементу и уже проверить символы
 
         System.out.println();
 
