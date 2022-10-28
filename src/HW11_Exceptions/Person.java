@@ -22,7 +22,6 @@ public class Person {
     }
     public Person() {
     }
-
     void getMyUserName() throws Exception {
         System.out.println("Введите Ваш UserName");
         String userName = scanner.nextLine();
@@ -40,7 +39,6 @@ public class Person {
             System.out.println("Спасибо! Теперь введите ваш e-Mail: ");
         }
     }
-
     void getMyEmail() throws Exception {
         String eMail = scanner.nextLine();
         try {
@@ -59,7 +57,6 @@ public class Person {
             System.out.println("Ошибка в системе:(");
         }
     }
-
     void getMyLogin() throws Exception {
         String login = scanner.nextLine();
         try {
@@ -76,7 +73,6 @@ public class Person {
             System.out.println("Спасибо! Теперь введите ваш пароль: ");
         }
     }
-
     void getMyPassword() throws Exception {
         String password = scanner.nextLine();
         try {
@@ -95,6 +91,5 @@ public class Person {
             System.out.println("Здравствуйте " + getUserName() + "! Чек об оплате будет выслан на Ваш e-Mail: " + geteMail());
         }
     }
-
 }
 
