@@ -26,5 +26,7 @@ public class AverageLenght {
                 System.out.println(str[i] + ", её длина: " + str[i].length());
             }
         }
+
+
     }
 }

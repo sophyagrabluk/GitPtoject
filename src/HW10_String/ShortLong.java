@@ -19,7 +19,7 @@ public class ShortLong {
         String longestStr = null;
         for (int x = 0; x < str.length; x++) {
             if (str[x].length() > lg) {
-                lg = str[x].length();// lg - длина самой длинной строки
+                lg = str[x].length();
                 longestStr = str[x];
             }
         }
@@ -30,7 +30,7 @@ public class ShortLong {
         String shortestStr = null;
         for (int x = 0; x < str.length; x++) {
             if (str[x].length() < sh) {
-                sh = str[x].length();// lg - длина самой длинной строки
+                sh = str[x].length();
                 shortestStr = str[x];
             }
         }
