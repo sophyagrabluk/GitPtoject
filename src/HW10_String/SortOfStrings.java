@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SortOfStrings {
     public static void main(String[] args) {
-        // Ввести 3 строки с консоли. Упорядочить и вывести строки в порядке возрастания значений их длины.
+        // Ввести 3 строки с консоли. Упорядочить и вывести строки в порядке возрастания значений их длины
         Scanner scanner = new Scanner(System.in);
         System.out.println("Введите 3 строки:");
         String[] str = new String[3];
