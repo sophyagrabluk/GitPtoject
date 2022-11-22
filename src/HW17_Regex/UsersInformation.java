@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 
 public class UsersInformation {
     public static void main(String[] args) throws IOException {
-        // В конце вывести все найденные элементы Map.
         // Программа на вход получает путь к файлу (формат тхт). Необходимо извлечь информацию.
         FileReader fileReader = new FileReader("C://TMS/regexInfo.txt");
         int i = -1;
@@ -18,12 +17,10 @@ public class UsersInformation {
             allInfo.append((char) i);
         }
         fileReader.close();
-        //System.out.println(allInfo);
         //  Извлеченную информацию необходимо сохранить в следующую структуру данных:
         // Map, где ключ типа String – это что сохраняем(email, document number, phone number),значение типа String с информацией.
-
+        // В конце вывести все найденные элементы Map.
         HashMap<String, String> usersMap = new HashMap<>();
-
         Pattern documentPattern = Pattern.compile("[0-9]{4}-[0-9]{4}-[0-9]{2}");
         Matcher documentMatcher = documentPattern.matcher(allInfo);
         ArrayList<String> infoDoc = new ArrayList<>();
