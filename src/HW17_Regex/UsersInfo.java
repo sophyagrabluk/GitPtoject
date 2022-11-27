@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 
 public class UsersInfo {
     public static void main(String[] args) throws IOException {
-        // Программа на вход получает путь к файлу (формат тхт). Необходимо извлечь информацию.
+        // Программа на вход получает путь к файлу (формат тхт). Необходимо извлечь информацию
         FileReader fileReader = new FileReader("C://TMS/regexInfo.txt");
         int i = -1;
         StringBuilder allInfo = new StringBuilder();
