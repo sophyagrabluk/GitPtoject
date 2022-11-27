@@ -48,3 +48,4 @@ public class UsersInformation {
         System.out.println(usersMap);
     }
 }
+git rm --cached UsersInformation.java
