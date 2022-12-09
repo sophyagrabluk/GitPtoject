@@ -2,7 +2,7 @@ package HW33_Object;
 
 import java.util.Objects;
 
-public class User implements Cloneable{
+public class User implements Cloneable {
     //Создать класс для описания пользователя системы.
     // Переопределить в классе методы toString, hashcode и equals.
     private final String name;
@@ -17,7 +17,7 @@ public class User implements Cloneable{
 
     @Override
     public String toString() {
-        return  "name: " + name +
+        return "name: " + name +
                 ", age: " + age +
                 ", eMail: " + eMail +
                 '}';
