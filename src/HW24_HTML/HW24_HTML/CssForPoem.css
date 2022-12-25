@@ -1,0 +1,11 @@
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+}
+h3{
+    font-size: smaller;
+    font-weight: normal;
+}
+body{
+    font-size: larger;
+}
